@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP 15-DK0142TX\\source\\repos\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj": {}
+    "C:\\Users\\HP 15-DK0142TX\\Source\\Repos\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP 15-DK0142TX\\source\\repos\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj": {
+    "C:\\Users\\HP 15-DK0142TX\\Source\\Repos\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP 15-DK0142TX\\source\\repos\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\HP 15-DK0142TX\\Source\\Repos\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
         "projectName": "Talent.App.WebApp",
-        "projectPath": "C:\\Users\\HP 15-DK0142TX\\source\\repos\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
+        "projectPath": "C:\\Users\\HP 15-DK0142TX\\Source\\Repos\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
         "packagesPath": "C:\\Users\\HP 15-DK0142TX\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP 15-DK0142TX\\source\\repos\\talent-competition\\App\\Talent.App.WebApp\\obj\\",
+        "outputPath": "C:\\Users\\HP 15-DK0142TX\\Source\\Repos\\talent-competition\\App\\Talent.App.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

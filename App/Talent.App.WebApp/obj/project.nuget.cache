@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7t1N233nMj5+lCl0jAtgrlcBTbMkTwfcEhEwpMZaLFKERxAIiS1krt6RCH6M+m8Tb75u5t7YBJei3ydebKV5Vg==",
+  "dgSpecHash": "iW0dLSgS37nfNjZVMVdB8yE4qc7QgpWI4UbecIyI/4Yxor9s2ebts6xBbYlFN6df8L5IkYTme+L+1BDwGwjvKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP 15-DK0142TX\\source\\repos\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
+  "projectFilePath": "C:\\Users\\HP 15-DK0142TX\\Source\\Repos\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP 15-DK0142TX\\.nuget\\packages\\libuv\\1.10.0\\libuv.1.10.0.nupkg.sha512",
     "C:\\Users\\HP 15-DK0142TX\\.nuget\\packages\\microsoft.applicationinsights\\2.4.0\\microsoft.applicationinsights.2.4.0.nupkg.sha512",

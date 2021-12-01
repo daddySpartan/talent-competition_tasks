@@ -13667,11 +13667,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP 15-DK0142TX\\source\\repos\\talent-competition\\Talent.Services.Listing\\Talent.Services.Talent.csproj",
+      "projectUniqueName": "C:\\Users\\HP 15-DK0142TX\\Source\\Repos\\talent-competition\\Talent.Services.Listing\\Talent.Services.Talent.csproj",
       "projectName": "Talent.Services.Talent",
-      "projectPath": "C:\\Users\\HP 15-DK0142TX\\source\\repos\\talent-competition\\Talent.Services.Listing\\Talent.Services.Talent.csproj",
+      "projectPath": "C:\\Users\\HP 15-DK0142TX\\Source\\Repos\\talent-competition\\Talent.Services.Listing\\Talent.Services.Talent.csproj",
       "packagesPath": "C:\\Users\\HP 15-DK0142TX\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP 15-DK0142TX\\source\\repos\\talent-competition\\Talent.Services.Listing\\obj\\",
+      "outputPath": "C:\\Users\\HP 15-DK0142TX\\Source\\Repos\\talent-competition\\Talent.Services.Listing\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13691,11 +13691,11 @@
         "netcoreapp2.0": {
           "targetAlias": "netcoreapp2.0",
           "projectReferences": {
-            "C:\\Users\\HP 15-DK0142TX\\source\\repos\\talent-competition\\Talent.Common\\Talent.Common.csproj": {
-              "projectPath": "C:\\Users\\HP 15-DK0142TX\\source\\repos\\talent-competition\\Talent.Common\\Talent.Common.csproj"
+            "C:\\Users\\HP 15-DK0142TX\\Source\\Repos\\talent-competition\\Talent.Common\\Talent.Common.csproj": {
+              "projectPath": "C:\\Users\\HP 15-DK0142TX\\Source\\Repos\\talent-competition\\Talent.Common\\Talent.Common.csproj"
             },
-            "C:\\Users\\HP 15-DK0142TX\\source\\repos\\talent-competition\\Talent.Services.Profile\\Talent.Services.Profile.csproj": {
-              "projectPath": "C:\\Users\\HP 15-DK0142TX\\source\\repos\\talent-competition\\Talent.Services.Profile\\Talent.Services.Profile.csproj"
+            "C:\\Users\\HP 15-DK0142TX\\Source\\Repos\\talent-competition\\Talent.Services.Profile\\Talent.Services.Profile.csproj": {
+              "projectPath": "C:\\Users\\HP 15-DK0142TX\\Source\\Repos\\talent-competition\\Talent.Services.Profile\\Talent.Services.Profile.csproj"
             }
           }
         }

@@ -14230,11 +14230,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP 15-DK0142TX\\source\\repos\\talent-competition\\Talent.Services.Identity\\Talent.Services.Identity.csproj",
+      "projectUniqueName": "C:\\Users\\HP 15-DK0142TX\\Source\\Repos\\talent-competition\\Talent.Services.Identity\\Talent.Services.Identity.csproj",
       "projectName": "Talent.Services.Identity",
-      "projectPath": "C:\\Users\\HP 15-DK0142TX\\source\\repos\\talent-competition\\Talent.Services.Identity\\Talent.Services.Identity.csproj",
+      "projectPath": "C:\\Users\\HP 15-DK0142TX\\Source\\Repos\\talent-competition\\Talent.Services.Identity\\Talent.Services.Identity.csproj",
       "packagesPath": "C:\\Users\\HP 15-DK0142TX\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP 15-DK0142TX\\source\\repos\\talent-competition\\Talent.Services.Identity\\obj\\",
+      "outputPath": "C:\\Users\\HP 15-DK0142TX\\Source\\Repos\\talent-competition\\Talent.Services.Identity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -14254,8 +14254,8 @@
         "netcoreapp2.0": {
           "targetAlias": "netcoreapp2.0",
           "projectReferences": {
-            "C:\\Users\\HP 15-DK0142TX\\source\\repos\\talent-competition\\Talent.Common\\Talent.Common.csproj": {
-              "projectPath": "C:\\Users\\HP 15-DK0142TX\\source\\repos\\talent-competition\\Talent.Common\\Talent.Common.csproj"
+            "C:\\Users\\HP 15-DK0142TX\\Source\\Repos\\talent-competition\\Talent.Common\\Talent.Common.csproj": {
+              "projectPath": "C:\\Users\\HP 15-DK0142TX\\Source\\Repos\\talent-competition\\Talent.Common\\Talent.Common.csproj"
             }
           }
         }
