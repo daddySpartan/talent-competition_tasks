@@ -5,12 +5,13 @@ import LoggedInBanner from '../../Layout/Banner/LoggedInBanner.jsx';
 import { LoggedInNavigation } from '../../Layout/LoggedInNavigation.jsx';
 import { JobSummaryCard } from './JobSummaryCard.jsx';
 import { BodyWrapper, loaderData } from '../../Layout/BodyWrapper.jsx';
-import { Pagination, Icon, Header, Dropdown, Checkbox, Accordion, Form, Segment, Card, Button, Label, Placeholder } from 'semantic-ui-react';
-import {Job} from '../../EmployerFeed/Job.jsx';
+import { Pagination, Icon, Header, Segment, Card, Button, Label} from 'semantic-ui-react';
 import moment from 'moment';
 import SelectFilter from './SelectFilter.jsx';
 import SelectSort from './SelectSort.jsx';
 import PageChange from './PageChange.jsx';
+import CloseJob from './CloseJob.jsx';
+import EditJob from '../CreateJob/EditJob.jsx';
 
 export default class ManageJob extends React.Component {
     constructor(props) {
@@ -36,7 +37,8 @@ export default class ManageJob extends React.Component {
             totalPages: 1,
             activeIndex: [],
             startIndex: 0,
-            endIndex: 2
+            endIndex: 2,
+            open: false
         }
         this.loadData = this.loadData.bind(this);
         this.init = this.init.bind(this);
@@ -44,6 +46,9 @@ export default class ManageJob extends React.Component {
         this.expiryData = this.expiryData.bind(this);
         this.handleFilterSelect = this.handleFilterSelect.bind(this);
         this.changePage= this.changePage.bind(this);
+        this.openJobModal= this.openJobModal.bind(this);
+        this.closedData= this.closedData.bind(this);
+        this.openEditJob= this.openEditJob.bind(this);
         //your functions go here
     };
 
@@ -63,8 +68,7 @@ export default class ManageJob extends React.Component {
     componentDidMount() {
         this.loadData();
     };
-    //componentDidUpdate() {this.init()};
-    componentWillUnmount() {this.init()};
+    //componentWillUnmount() {this.init()};
     loadData() {
         var link = 'http://localhost:51689/listing/listing/getSortedEmployerJobs';
         var cookies = Cookies.get('talentAuthToken');
@@ -83,9 +87,6 @@ export default class ManageJob extends React.Component {
                 showDraft:this.state.filter.showDraft,
                 showExpired:this.state.filter.showExpired,
                 showUnexpired:this.state.filter.showUnexpired,
-                //employerId: "61a0e2d8d31c0f8600c143ff",
-              
-
 
             },
 
@@ -146,6 +147,12 @@ export default class ManageJob extends React.Component {
      
     }      
     
+    closedData(jobStatus) {
+        console.log(jobStatus)
+        if (jobStatus === 1)
+            {return(true)}
+        else {return(false)}
+    }
 
     handleFilterSelect(setFilter){
         console.log(setFilter);
@@ -155,7 +162,7 @@ export default class ManageJob extends React.Component {
                 return this.setState({          
                         filter: {
                             showActive: true,
-                            showClosed: false,
+                            showClosed: true,
                             showDraft: false,
                             showExpired: true,
                             showUnexpired: true
@@ -167,7 +174,7 @@ export default class ManageJob extends React.Component {
                 return this.setState({            
                         filter: {
                             showActive: true,
-                            showClosed: false,
+                            showClosed: true,
                             showDraft: false,
                             showExpired: false,
                             showUnexpired: true
@@ -179,7 +186,7 @@ export default class ManageJob extends React.Component {
                 return this.setState({            
                         filter: {
                             showActive: true,
-                            showClosed: false,
+                            showClosed: true,
                             showDraft: false,
                             showExpired: true,
                             showUnexpired: false
@@ -210,11 +217,16 @@ export default class ManageJob extends React.Component {
         })
     }
 
+    openJobModal (value)
+    { return this.setState({ open: value});}
+
+    openEditJob (j)
+    { <EditJob jobData={j}/>;}
 
 
     render() {
 
-        const {loadJobs, activeIndex, activePage} = this.state;
+        const {loadJobs, activeIndex, activePage, open} = this.state;
 
         if (loadJobs.length > 0) {
             return (
@@ -243,27 +255,38 @@ export default class ManageJob extends React.Component {
                                     </Label>
 
                                     <Card.Meta>{j.location.city} {j.location.country}</Card.Meta>
-                                    <Card.Description padding-bottom = '100px'>
+                                    <Card.Description >
                                     <strong  >We have a position for a {j.title}</strong>
-                            
-
+                                    <br></br>
+                                    <br></br>
+                                    <br></br>
+                                    <br></br>
+                                    <br></br>
+                                    <br></br>
+                                    <br></br>
+                                    <br></br>
                                     </Card.Description>
                                 </Card.Content>
                                 <Card.Content extra>
                                     <div className='ui three buttons'>
-                                        { this.expiryData(j.expiryDate)
-                                            ? <Button negative size= 'mini' floated='left'>Expired</Button>
-                                            : <Button positive size= 'mini' floated='left'>Active</Button>
+                                        { this.expiryData(j.expiryDate) || this.closedData(j.status)
+                                            ? <Button size= 'mini' floated='left' negative >{this.closedData(j.status) ? 'Closed' : 'Expired'}</Button>
+                                            : <Button size= 'mini' floated='left' positive >Active</Button>
                                         }
 
                                     
                                     <Button.Group size = 'mini' floated = 'right' basic color='blue'>
-                                        <Button >
-                                            Close
+                                        
+                                        <Button onClick={() => this.openJobModal(true)}>
+                                            Close 
                                         </Button>
-                                        <Button >
+                                        <CloseJob open={open} openJobModal={this.openJobModal} loadData={this.loadData} jobId={j.id}/>
+                                        
+                                        <Button onClick={() => this.openEditJob(j)}>
                                             Edit
                                         </Button>
+                                        
+
                                         <Button >
                                             Copy
                                         </Button>

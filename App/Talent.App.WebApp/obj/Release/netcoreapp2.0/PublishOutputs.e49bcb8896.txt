@@ -112,6 +112,7 @@ C:\Users\HP 15-DK0142TX\Source\Repos\talent-competition\App\Talent.App.WebApp\ob
 C:\Users\HP 15-DK0142TX\Source\Repos\talent-competition\App\Talent.App.WebApp\obj\Release\netcoreapp2.0\PubTmp\Out\wwwroot\js\react\ReactScripts\EmployerProfile.js
 C:\Users\HP 15-DK0142TX\Source\Repos\talent-competition\App\Talent.App.WebApp\obj\Release\netcoreapp2.0\PubTmp\Out\wwwroot\js\react\ReactScripts\Employer\common.js
 C:\Users\HP 15-DK0142TX\Source\Repos\talent-competition\App\Talent.App.WebApp\obj\Release\netcoreapp2.0\PubTmp\Out\wwwroot\js\react\ReactScripts\Employer\CreateJob\CreateJob.jsx
+C:\Users\HP 15-DK0142TX\Source\Repos\talent-competition\App\Talent.App.WebApp\obj\Release\netcoreapp2.0\PubTmp\Out\wwwroot\js\react\ReactScripts\Employer\CreateJob\EditJob.jsx
 C:\Users\HP 15-DK0142TX\Source\Repos\talent-competition\App\Talent.App.WebApp\obj\Release\netcoreapp2.0\PubTmp\Out\wwwroot\js\react\ReactScripts\Employer\CreateJob\JobApplicant.jsx
 C:\Users\HP 15-DK0142TX\Source\Repos\talent-competition\App\Talent.App.WebApp\obj\Release\netcoreapp2.0\PubTmp\Out\wwwroot\js\react\ReactScripts\Employer\CreateJob\JobCategories.jsx
 C:\Users\HP 15-DK0142TX\Source\Repos\talent-competition\App\Talent.App.WebApp\obj\Release\netcoreapp2.0\PubTmp\Out\wwwroot\js\react\ReactScripts\Employer\CreateJob\JobDescription.jsx
@@ -119,6 +120,7 @@ C:\Users\HP 15-DK0142TX\Source\Repos\talent-competition\App\Talent.App.WebApp\ob
 C:\Users\HP 15-DK0142TX\Source\Repos\talent-competition\App\Talent.App.WebApp\obj\Release\netcoreapp2.0\PubTmp\Out\wwwroot\js\react\ReactScripts\Employer\CreateJob\JobSummary.jsx
 C:\Users\HP 15-DK0142TX\Source\Repos\talent-competition\App\Talent.App.WebApp\obj\Release\netcoreapp2.0\PubTmp\Out\wwwroot\js\react\ReactScripts\Employer\CreateJob\Location.jsx
 C:\Users\HP 15-DK0142TX\Source\Repos\talent-competition\App\Talent.App.WebApp\obj\Release\netcoreapp2.0\PubTmp\Out\wwwroot\js\react\ReactScripts\Employer\CreateJob\Salary.jsx
+C:\Users\HP 15-DK0142TX\Source\Repos\talent-competition\App\Talent.App.WebApp\obj\Release\netcoreapp2.0\PubTmp\Out\wwwroot\js\react\ReactScripts\Employer\ManageJob\CloseJob.jsx
 C:\Users\HP 15-DK0142TX\Source\Repos\talent-competition\App\Talent.App.WebApp\obj\Release\netcoreapp2.0\PubTmp\Out\wwwroot\js\react\ReactScripts\Employer\ManageJob\JobSummaryCard.jsx
 C:\Users\HP 15-DK0142TX\Source\Repos\talent-competition\App\Talent.App.WebApp\obj\Release\netcoreapp2.0\PubTmp\Out\wwwroot\js\react\ReactScripts\Employer\ManageJob\ManageJob.jsx
 C:\Users\HP 15-DK0142TX\Source\Repos\talent-competition\App\Talent.App.WebApp\obj\Release\netcoreapp2.0\PubTmp\Out\wwwroot\js\react\ReactScripts\Employer\ManageJob\PageChange.jsx
